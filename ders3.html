@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 id="baslik">Selam</h1>
+   <p id="metin"></p>
+   <ul>
+    <li>ERZURUM</li>
+    <li>ANKARA</li>
+    <li>MALATYA</li>
+   </ul>
+
+   <ul>
+    <li>ALMANYA</li>
+    <li>RUSYA</li>
+    <li>NORVEÇ</li>
+   </ul>
+
+   <script>
+    var baslik = document.getElementById("baslik");
+    var metin = document.getElementById("metin");
+    metin.innerHTML = baslik.innerHTML;
+
+   </script>
+
+</body>
+</html>

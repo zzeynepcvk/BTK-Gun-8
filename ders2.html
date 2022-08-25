@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(i=0; i<10; i++) {
+            console.log("şuan değer: " + i);
+        }
+        var sehirler=["aydın","Samsung","trabzon","ağrı"]
+
+        for(i=0; i<sehirler.length; i++) {
+            console.log(sehirler[i]);}
+            console.log("########");
+            sehirler.forEach (function(sehir,i){
+                console.log(sehirler[i]);
+            })
+           
+            console.log("########");
+/*
+            var liste = [];
+           var cift = [];
+           var tek = [];
+
+            for(i=0; i<10; i++){
+                liste[i] =Number(prompt("sayı gir :"))
+            }
+               liste.forEach(function(eleman){
+                ciftler.push(eleman);
+
+            
+            
+
+         
+
+         console.log(liste);
+*/
+
+var ogrenciler=[]
+var uc=[]
+var dort=[]
+var bes=[]
+var alti=[]
+var ozel=[]
+
+for (i=0; i<10; i++){
+    ogrenciler[i]=prompt("adını gir asko")
+}
+ogrenciler.forEach(function(ogrenciler){
+
+    if (ogrenciler.length==3){
+        uc.push(ogrenciler[i])
+        }
+        else if(ogrenciler.length==4){
+            dort.push(ogrenciler[i])
+        }
+        else if(ogrenciler.length==5){
+            bes.push(ogrenciler[i])
+        }
+        else if(ogrenciler.length==6){
+            alti.push(ogrenciler[i])
+        }
+        else{
+            ozel.push(ogrenciler[i])
+        }
+})
+
+
+
+    </script>
+</body>
+</html>

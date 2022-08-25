@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var kullanicilar=[
+            { email:"kullanici1@gmail.com",sifre:"1234" },
+            { email:"kullanici2@gmail.com",sifre:"5678" },
+        ]
+
+        var mesajlar=[
+        { email:"kulanici1@gmail.com" , mesaj:"Günaydın"},
+        { email:"kulanici1@gmail.com" , mesaj:"Günaydın zeynep"},
+        { email:"kulanici2@gmail.com" , mesaj:"hello"},
+        { email:"kulanici2@gmail.com" , mesaj:"Günaydın asko"},
+        ]
+           
+        
+        var email = prompt("Please enter your email address")
+        var sifre = prompt("Please enter your password")
+
+        function login() {
+
+            if ( (email==kullanicilar[0].email && sifre==kullanicilar[0].sifre) || (email==kullanicilar[1].email && sifre==kullanicilar[1].sifre))
+            {
+             console.log(mesajlar)  }
+
+            else {
+            alert("yanlis giris")
+        }
+    }
+
+        
+
+
+
+
+    </script>
+    
+</body>
+</html>
